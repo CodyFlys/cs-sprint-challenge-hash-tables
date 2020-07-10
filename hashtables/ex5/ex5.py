@@ -2,13 +2,14 @@
 
 
 
-def finder(files, queries):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+def finder(files, queries, cache={}):
+    result = []
 
-    return result
+    for file in files:
+        print(file)
+
+    for query in queries:
+        print(query)
 
 
 if __name__ == "__main__":
